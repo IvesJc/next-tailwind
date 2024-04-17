@@ -6,6 +6,6 @@ interface ButtonProps {
 
 export const Button = ({ children }: ButtonProps) => {
     return (
-        <button className="bg-orange-600 p-2 rounded-md">{children}</button>
+        <button className="bg-orange-600 p-2 rounded-md hover:bg-orange-900">{children}</button>
     )
 }
